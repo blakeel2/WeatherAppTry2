@@ -215,8 +215,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/startblue"
-                android:text="temp" />
+                android:text="tempt"
+                android:textColor="@color/startblue" />
 
             <TextView
                 android:layout_width="wrap_content"
