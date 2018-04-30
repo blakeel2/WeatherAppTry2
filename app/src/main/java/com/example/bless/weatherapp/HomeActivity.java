@@ -26,8 +26,8 @@ public class HomeActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-    locationTV = (TextView) findViewById(R.id.nameTextView);
-    temperatureTV = (TextView) findViewById(R.id.temperatureTextView);
+    locationTV = (TextView) findViewById(R.id.);
+    temperatureTV = (TextView) findViewById(R.id.);
 
     LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
     String provider = locationManager.getBestProvider(new Criteria(), false);
@@ -45,7 +45,7 @@ public class HomeActivity extends AppCompatActivity {
     double latitude = location.getLatitude();
     double longitude = location.getLongitude();
             DownloadTask task = new DownloadTask();
-    task.execute("http://samples.openweathermap.org/data/2.5/weather?lat=" +
+    task.execute("api.openweathermap.org/data/2.5/forecast?lat=" +
             String.valueOf(latitude) + "&lon=" + String.valueOf(longitude) +"&appid=" +
             "174d19403351b6c8535769b0a1e5015f");
   }
