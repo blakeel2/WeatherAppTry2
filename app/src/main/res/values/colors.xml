@@ -3,10 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#1be6b7</color>
-    <color name="Background">#79a6ee</color>
+    <color name="Background">#2269da</color>
     <color name="Text">#ffffff</color>
     <color name="primaryDark">#292b3d</color>
     <color name="graylight">#fafafa</color>
     <color name="startblue">#09c6df</color>
     <color name="endblue">#0bcce6</color>
+    <color name="endOrange">#bd8337</color>
+    <color name="yellowSun">#dccc18</color>
 </resources>
