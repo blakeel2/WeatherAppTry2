@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">WeatherApp</string>
     <string name="action_settings">Settings</string>
+    <string name="AM1200temp">testing</string>
+    <string name="AM0300temp">testing</string>
+    <string name="AM0600temp">testing</string>
+    <string name="AM0900temp">testing</string>
+    <string name="PM1200temp">testing</string>
+    <string name="PM0300temp">testing</string>
+    <string name="PM0600temp">testing</string>
+    <string name="PM0900temp">testing</string>
+    <string name="testString">testingthisLOOKHERE</string>
 </resources>
