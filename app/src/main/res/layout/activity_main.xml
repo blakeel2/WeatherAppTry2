@@ -69,7 +69,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="False"
+                        android:text="@string/naturalDisaster"
                         android:textSize="20sp" />
 
                     <TextView
@@ -91,7 +91,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="false"
+                        android:text="@string/Precipitation"
                         android:textSize="20sp" />
 
                     <TextView
@@ -113,7 +113,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="False"
+                        android:text="@string/Wind"
                         android:textSize="20sp" />
 
                     <TextView
@@ -151,7 +151,7 @@
                     android:layout_height="wrap_content"
                     android:text="Forecast:"
                     android:textColor="@color/Text"
-                    android:textSize="15sp"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -163,55 +163,55 @@
                     android:layout_height="wrap_content"
                     android:text="12:00AM:"
                     android:textColor="@color/Text"
-                    android:textSize="12sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="3:00AM:"
                     android:textColor="@color/Text"
-                    android:textSize="12sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="6:00AM:"
                     android:textColor="@color/Text"
-                    android:textSize="12sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="9:00AM:"
                     android:textColor="@color/Text"
-                    android:textSize="12sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="12:00PM:"
                     android:textColor="@color/Text"
-                    android:textSize="12sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="3:00PM:"
                     android:textColor="@color/Text"
-                    android:textSize="12sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="6:00PM"
+                    android:text="6:00PM:"
                     android:textColor="@color/Text"
-                    android:textSize="12sp" />
+                    android:textSize="15sp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="9:00PM"
+                    android:text="9:00PM:"
                     android:textColor="@color/Text"
-                    android:textSize="12sp" />
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -224,7 +224,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
                     android:textStyle="bold"
-                    android:text="Temperature: " />
+                    android:text="Temperature: "
+                    android:textSize="16sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -236,46 +237,54 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/AM1200temp"
+                    android:textSize="15sp"
                     android:textColor="@color/Text" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/AM0300temp"
+                    android:textSize="15sp"
                     android:textColor="@color/Text" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
+                    android:textSize="15sp"
                     android:text="@string/AM0600temp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
+                    android:textSize="15sp"
                     android:text="@string/AM0900temp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
+                    android:textSize="15sp"
                     android:text="@string/PM1200temp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
+                    android:textSize="15sp"
                     android:text="@string/PM0300temp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
+                    android:textSize="15sp"
                     android:text="@string/PM0600temp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
+                    android:textSize="15sp"
                     android:text="@string/PM0900temp"/>
             </LinearLayout>
 
@@ -287,8 +296,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
+                    android:textSize="16sp"
                     android:textStyle="bold"
-                    android:text="What To Wear?"/>
+                    android:text="          Attire:"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -297,13 +307,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
-                    android:text="Hat:"
-                    />
+                    android:text="Hat:" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Scarf:"
+                    android:textColor="@color/Text" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gloves:"
                     android:textColor="@color/Text" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -350,37 +364,42 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
-                    android:text="test"/>
+                    android:text="@string/attireHat"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
-                    android:text="test"/>
+                    android:text="@string/attireScarf"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
-                    android:text="test"/>
+                    android:text="@string/attireGloves"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
-                    android:text="test"/>
+                    android:text="@string/attireJacket"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
-                    android:text="test"/>
+                    android:text="@string/attireShirt"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
-                    android:text="test"/>
+                    android:text="@string/attirePants"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/Text"
-                    android:text="test"/>
+                    android:text="@string/attireSocks"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Text"
+                    android:text="@string/attireShoes"/>
             </LinearLayout>
 
         </LinearLayout>

@@ -9,5 +9,16 @@
     <string name="PM0300temp">testiiing</string>
     <string name="PM0600temp">testing</string>
     <string name="PM0900temp">testing</string>
+    <string name="attireHat">testing</string>
+    <string name="attireScarf">testing</string>
+    <string name="attireJacket">testing</string>
+    <string name="attireShirt">testing</string>
+    <string name="attirePants">testing</string>
+    <string name="attireGloves">testing</string>
+    <string name="attireSocks">testing</string>
+    <string name="attireShoes">testing</string>
+    <string name="naturalDisaster">testing</string>
+    <string name="Precipitation">testing</string>
+    <string name="Wind">testing</string>
     <string name="testString">testingthisLOOKHERE</string>
 </resources>
