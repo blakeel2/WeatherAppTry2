@@ -60,13 +60,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="Natural Disaster"
+                        android:text="False"
                         android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="False"
+                        android:text="Natural Disaster"
                         android:textColor="@color/startblue"
                         android:textSize="10dp"
                         android:textStyle="bold" />
@@ -78,17 +78,17 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="false"
+                        android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Precipitation"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="placeholder"
                         android:textColor="@color/startblue"
                         android:textSize="10dp"
                         android:textStyle="bold" />
@@ -104,13 +104,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Wind"
+                        android:text="False"
                         android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="placeholder"
+                        android:text="Wind"
                         android:textColor="@color/startblue"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -121,6 +121,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
@@ -188,59 +189,114 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="105dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
+                android:textStyle="bold"
                 android:text="Temperature: " />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
                 android:text=" " />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="12temp" />
+                android:text="test"
+                android:textColor="@color/startblue" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
                 android:text="temp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
                 android:text="temp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
                 android:text="temp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
                 android:text="temp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
                 android:text="temp" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="105dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="WhatToWear??"/>
+                android:textColor="@color/startblue"
+                android:textStyle="bold"
+                android:text="What To Wear?"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
+                android:text="Hat:"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
+                android:text="Scarf:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
+                android:text="Jacket:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
+                android:text="Shirt:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
+                android:text="Pants:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
+                android:text="Socks:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/startblue"
+                android:text="Shoes:"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -248,33 +304,38 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hat:"
-                />
+                android:textColor="@color/startblue"
+                android:text="test"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Scarf:"/>
+                android:textColor="@color/startblue"
+                android:text="test"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Jacket:"/>
+                android:textColor="@color/startblue"
+                android:text="test"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Shirt:"/>
+                android:textColor="@color/startblue"
+                android:text="test"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pants:"/>
+                android:textColor="@color/startblue"
+                android:text="test"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Socks"/>
+                android:textColor="@color/startblue"
+                android:text="test"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Shoes"/>
-
+                android:textColor="@color/startblue"
+                android:text="test"/>
         </LinearLayout>
 
     </LinearLayout>
