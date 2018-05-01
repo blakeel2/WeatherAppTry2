@@ -17,8 +17,9 @@
     <string name="attireGloves">testing</string>
     <string name="attireSocks">testing</string>
     <string name="attireShoes">testing</string>
-    <string name="naturalDisaster">testing</string>
+    <string name="naturalDisaster">thisshouldchange</string>
     <string name="Precipitation">testing</string>
     <string name="Wind">testing</string>
     <string name="testString">testingthisLOOKHERE</string>
+    <string name="testing">locationTV</string>
 </resources>
